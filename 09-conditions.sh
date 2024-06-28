@@ -6,4 +6,4 @@ then
   echo "Given number $NUMBER is greater than 100"
 else
   echo "given gumber $NUMBER is not greater than 100"
-
+fi 
