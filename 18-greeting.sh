@@ -26,6 +26,7 @@ if [ -z "$NAME" ] || [ -z "$WISHES" ]
      echo "ERROR: both -n and -w are mandatory options."
      USAGE
      exit 1
+
 fi
 
 echo "Hello $NAME. $WISHES. I have been learning shell-script"
