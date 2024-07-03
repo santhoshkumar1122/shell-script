@@ -22,7 +22,7 @@ while getopts ":n:w:h" opt; do
 
 done
 
-if [ -z "$NAME" ] || [ -z "$WISHES" ]
+if [ -z "$NAME" ] || [ -z "$WISHES" ]; then
      echo "ERROR: both -n and -w are mandatory options."
      USAGE
      exit 1
